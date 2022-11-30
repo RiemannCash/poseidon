@@ -3,7 +3,7 @@
 
 ## Important
 Please enable solidity compilers optimize
-```json
+```js
 {
     compilers: [
       {
