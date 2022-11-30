@@ -4,7 +4,7 @@
 ## Important
 Please enable solidity compilers optimize
 ```json
-solidity: {
+{
     compilers: [
       {
         settings: {
