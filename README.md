@@ -5,26 +5,26 @@
 Please enable solidity compilers optimize
 ```js
 {
-    compilers: [
-      {
-        settings: {
-          optimizer: {
-            enabled: true,
-            runs: 200,
-          },
-          evmVersion: "istanbul",
+  compilers: [
+    {
+      settings: {
+        optimizer: {
+          enabled: true,
+          runs: 200,
         },
-      },
-    ],
-    overrides: {
-      "contracts/optimized/PoseidonT3.sol": {
-        version: "0.8.16",
-      },
-      "contracts/optimized/PoseidonT4.sol": {
-        version: "0.8.16",
+        evmVersion: "istanbul",
       },
     },
+  ],
+  overrides: {
+    "contracts/optimized/PoseidonT3.sol": {
+      version: "0.8.16",
+    },
+    "contracts/optimized/PoseidonT4.sol": {
+      version: "0.8.16",
+    },
   },
+},
 ```
 
 ## Reference
