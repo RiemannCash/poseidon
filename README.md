@@ -7,6 +7,7 @@ Please enable solidity compilers optimize
 {
   compilers: [
     {
+      version: "0.8.16",
       settings: {
         optimizer: {
           enabled: true,
@@ -17,14 +18,28 @@ Please enable solidity compilers optimize
     },
   ],
   overrides: {
-    "contracts/optimized/PoseidonT3.sol": {
+    "contracts/helper/PoseidonT3.sol": {
       version: "0.8.16",
+      settings: {
+        optimizer: {
+          enabled: true,
+          runs: 9999,
+        },
+        evmVersion: "istanbul",
+      },
     },
-    "contracts/optimized/PoseidonT4.sol": {
+    "contracts/helper/PoseidonT4.sol": {
       version: "0.8.16",
+      settings: {
+        optimizer: {
+          enabled: true,
+          runs: 9999,
+        },
+        evmVersion: "istanbul",
+      },
     },
   },
-},
+}
 ```
 
 ## Reference
