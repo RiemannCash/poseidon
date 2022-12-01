@@ -42,6 +42,14 @@ Please enable solidity compilers optimize
 }
 ```
 
+## Address
+### PoseidonT3
+- **Ethereum** [0x3189C962470c2C3763D639305B21BcFeb1D26e19](https://etherscan.io/address/0x3189C962470c2C3763D639305B21BcFeb1D26e19)
+- **Polygon** [0x3189C962470c2C3763D639305B21BcFeb1D26e19](https://polygonscan.com/address/0x3189C962470c2C3763D639305B21BcFeb1D26e19)
+- **BSC** [0x3189C962470c2C3763D639305B21BcFeb1D26e19](https://bscscan.com/address/0x3189C962470c2C3763D639305B21BcFeb1D26e19)
+- **Optimism** [0x3189C962470c2C3763D639305B21BcFeb1D26e19](https://optimistic.etherscan.io/address/0x3189C962470c2C3763D639305B21BcFeb1D26e19)
+- **Arbitrum** [0x3189C962470c2C3763D639305B21BcFeb1D26e19](https://arbiscan.io/address/0x3189C962470c2C3763D639305B21BcFeb1D26e19)
+
 ## Reference
 [circomlibjs](https://github.com/iden3/circomlibjs)
 - [poseidon_opt.js](https://github.com/iden3/circomlibjs/blob/main/src/poseidon_opt.js)
